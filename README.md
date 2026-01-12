@@ -35,11 +35,11 @@ If you are interested in similar (or better) capabilities you may also check the
 
 The purpose of the package is to provide tools to mode data from multi-channel instruments togeter, if needed, with data from any other surce. The package compute the needed response matrices that can then used for creating models, carry out fits, etc.
 
-No attept has been tried, on purpose, to mimic the simplified XSPEC syntax to create models, etc. Therefore models, etc. will be coded accordind to a plain Julia syntax.
+No attempt has been tried, on purpose, to mimic the simplified XSPEC syntax to create models, etc. Therefore models, etc. will be coded according to plain Julia syntax.
 
-The present version of the package uses Gassian statistics and data has ton be, if needed, adequately rebinned. A future version "might" offer analyses based on Poissonian statistics.
+The present version of the package uses Gaussian statistics and data has to be, if needed, adequately rebinned. A future version "might" offer analyses based on Poissonian statistics.
 
-The package has been used for analyses included in, e.g., [Brivio et al. (2025)](https://ui.adsabs.harvard.edu/abs/2025A%26A...695A.239B/abstract).
+The package has been used for real scientific analyses as in, e.g., [Brivio et al. (2025)](https://ui.adsabs.harvard.edu/abs/2025A%26A...695A.239B/abstract).
 
 
 
@@ -131,7 +131,7 @@ function MyModel(pars,E)
 end
 ```
 
-where we have used functions defined in the [`FittingFucntion.jl`](https://github.com/stefanocovino/FittingFunction.jl.git) package. It is important to check that the defined function can be used for all the energy ranges covered by the imported datasets.
+where we have used functions defined in the [`FittingFunction.jl`](https://github.com/stefanocovino/FittingFunction.jl.git) package. It is important to check that the defined function can be used for all the energy ranges covered by the imported datasets.
 
 Vectors with the observatins, uncertainties and input energies for all the imported datased can be obtained with:
 
