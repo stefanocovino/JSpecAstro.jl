@@ -4,7 +4,7 @@ CurrentModule = JSpecAstro
 
 # JSpecAstro
 
-Documentation for [Jspec](https://github.com/stefanocovino/JSpecAstro.jl).
+Documentation for [JSpecAstro](https://github.com/stefanocovino/JSpecAstro.jl).
 
 ```@index
 ```
