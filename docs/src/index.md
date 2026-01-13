@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = Jspec
+CurrentModule = JSpecAstro
 ```
 
-# Jspec
+# JSpecAstro
 
-Documentation for [Jspec](https://github.com/stefanocovino/Jspec.jl).
+Documentation for [Jspec](https://github.com/stefanocovino/JSpecAstro.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [Jspec]
+Modules = [JSpecAstro]
 ```

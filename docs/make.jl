@@ -1,14 +1,14 @@
-using Jspec
+using JSpecAstro
 using Documenter
 
-DocMeta.setdocmeta!(Jspec, :DocTestSetup, :(using Jspec); recursive=true)
+DocMeta.setdocmeta!(JSpecAstro, :DocTestSetup, :(using JSpecAstro); recursive=true)
 
 makedocs(;
-         modules=[Jspec],
+         modules=[JSpecAstro],
     authors="Stefano Covino <stefano.covino@inaf.it> and contributors",
-    sitename="Jspec.jl",
+    sitename="JSpecAstro.jl",
     format=Documenter.HTML(;
-                           canonical="https://stefanocovino.github.io/Jspec.jl",
+                           canonical="https://stefanocovino.github.io/JSpecAstro.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-           repo="github.com/stefanocovino/Jspec.jl",
+           repo="github.com/stefanocovino/JSpecAstro.jl",
     devbranch="main",
 )
