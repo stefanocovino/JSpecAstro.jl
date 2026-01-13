@@ -23,8 +23,8 @@ jobs:
       fail-fast: false
       matrix:
         version:
+          - '1.12'
           - '1.11'
-          - '1.10'
         os:
           - ubuntu-latest
         arch:
@@ -66,6 +66,6 @@ jobs:
         shell: julia --project=docs --color=yes {0}
         run: |
           using Documenter: DocMeta, doctest
-          using JSPEC
-          DocMeta.setdocmeta!(JSPEC, :DocTestSetup, :(using JSPEC); recursive=true)
-          doctest(JSPEC)
+          using JSPecAstro
+          DocMeta.setdocmeta!(JSpecAstro, :DocTestSetup, :(using JSpecAstro); recursive=true)
+          doctest(JSpecAstro)
